@@ -46,7 +46,7 @@ assert(angles(1) == angles(2))
 
 % Test 3 tests that if the triangle sides are 1 and sqrt(3), the angles are
 % 30, 60, and 90 degrees. If this condition is not true, assert throws an
-% error..
+% error...
 
 angles = rightTri(tri306090);
 assert(abs(angles(1)-30) <= tol)
